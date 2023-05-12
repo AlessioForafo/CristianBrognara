@@ -251,6 +251,24 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 480.0
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"ALessio"}
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 245.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
 - Name: Screen3
   Id: g=b90a80cc55523d64245c071ac7775952
   Supertype: Screen
